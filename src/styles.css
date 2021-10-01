@@ -1,0 +1,121 @@
+.App {
+  text-align: left;
+  font-family: "Yaldevi", sans-serif;
+  background-color: #ffffff;
+}
+.appHeader {
+  display: flex;
+  padding: 1px;
+  margin: 0px;
+  background-color: #84d5db;
+}
+.appTitle {
+  font-family: "Ephesis", cursive;
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 10px;
+  color: #1e0b70;
+}
+.insertForm {
+  display: flex;
+  margin-bottom: 30px;
+  padding: 12px;
+  align-content: flex-end;
+  align-items: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
+.statusText {
+  padding: 10px;
+  color: #ffffff;
+  font-size: 8px;
+}
+
+.heroStatus {
+  align-items: center;
+  padding: 18px;
+  margin-bottom: 30px;
+}
+.eventViewer {
+  padding: 10px;
+}
+.eventViewer .eventText {
+  font-size: 25px;
+}
+.eventText {
+  font-family: "Ephesis", cursive;
+  font-size: 40px;
+}
+table {
+  width: 100%;
+  margin-top: 18px;
+}
+
+th {
+  height: 50px;
+}
+
+tr {
+  height: 30px;
+}
+
+.dateTd {
+  font-weight: bold;
+  padding-top: 18px;
+}
+/*
+tr:nth-child(even) {
+  background: #f3f7f8;
+}
+tr:nth-child(odd) {
+  background: #fff;
+}
+*/
+td {
+  padding-left: 5px;
+  text-align: left;
+}
+
+button {
+  padding: 5px;
+  border: none;
+  background: #84d5db;
+  color: #0b0d0e;
+  border-radius: 10px;
+}
+
+.actionButton {
+  padding: 5px;
+  border: none;
+  background: none;
+  border-radius: 10px;
+}
+
+.menuItems {
+  display: flex;
+}
+.menuButton {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  border: none;
+  background: none;
+  font-size: 10px;
+}
+
+.menuButton i {
+  color: #1e0b70;
+}
+
+select {
+  height: 35px;
+  width: 100%;
+  font-weight: bold;
+}
